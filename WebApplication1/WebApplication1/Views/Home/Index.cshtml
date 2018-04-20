@@ -31,6 +31,7 @@
     <div id="test">
 
     </div>
+    <input type="text" name="abc" id="abc" value="" />
 </div>
 @* In case if you want to set some value to div *@
 
@@ -38,6 +39,8 @@
     <script>
         $('#test').text("Hello");
         alert($('#test').text());
+        $('#abc').val("Bar");
+        alert($('#abc').val());
     </script>
     
 }
